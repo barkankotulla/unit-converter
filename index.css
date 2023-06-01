@@ -1,0 +1,81 @@
+body {
+    margin: 30px auto;
+    width: 550px;
+    background-image: url(pexels-mahadee-hasan-15848937.jpg); 
+}
+
+.first-container {
+    background: #6943FF;
+    text-align: center;
+    width: 550px;
+    border-radius: 10px 10px 0 0;
+}
+
+.h1-first-container {
+    color: white;
+    margin-top: 0;
+    padding-top: 33px
+}
+
+.unit {
+    width: 117px;
+    height: 83px;
+    display: block;
+    margin: 0 auto;
+    background: #6943FF;
+    border: 1px solid #B295FF;
+    font-size: 58px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 1s;
+}
+
+.unit:hover {
+    background: #B295FF;
+    transition: background 1s;
+}
+
+.convert-button {
+    color: #3D3D3D;
+    margin-bottom: 34px;
+    margin-top: 25px;
+    padding: 9px 34px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    transition: color 1s, background 1s;
+}
+
+.convert-button:hover {
+    background: #6943FF;
+    color: white;
+    border: 1px solid white;
+    transition: color 1s, background 1s;
+}
+
+.second-container {
+    background: #1F2937;
+    width: 550px;
+    text-align: center;
+    overflow: auto;
+    border-radius: 0 0 10px 10px;
+}
+
+.unit-container {
+    background: #273549;
+    width: 500px;
+    margin: 36px 25px 23px 25px;
+}
+
+.h3-second-container {
+    color: #CCC1FF;
+    margin-top: 0px;
+    padding-top: 31px;
+}
+
+.p-second-container {
+    color: white;
+    padding-bottom: 19px;
+}
